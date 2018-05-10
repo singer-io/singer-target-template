@@ -1,0 +1,4 @@
+{
+  "project_name": "e.g. 'target-csv'",
+  "package_name": "{{cookiecutter.project_name.replace('-','_')}}"
+}
