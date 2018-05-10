@@ -11,7 +11,6 @@ setup(
     py_modules=["{{cookiecutter.package_name}}"],
     install_requires=[
         "singer-python>=5.0.12",
-        "requests",
     ],
     entry_points="""
     [console_scripts]
