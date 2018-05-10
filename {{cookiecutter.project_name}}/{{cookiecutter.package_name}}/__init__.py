@@ -100,7 +100,7 @@ def send_usage_stats():
         params = {
             'e': 'se',
             'aid': 'singer',
-            'se_ca': 'target-csv',
+            'se_ca': '{{cookiecutter.project_name}}',
             'se_ac': 'open',
             'se_la': version,
         }
