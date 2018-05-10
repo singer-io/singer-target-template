@@ -34,7 +34,7 @@ def flatten(d, parent_key='', sep='__'):
             items.append((new_key, str(v) if type(v) is list else v))
     return dict(items)
         
-def persist_lines(delimiter, quotechar, lines):
+def persist_lines(config, lines):
     state = None
     schemas = {}
     key_properties = {}
