@@ -10,7 +10,7 @@ Start by installing cookiecutter:
 $ pip install cookiecutter
 ```
 
-The next command will ask for some input.  Enter the name of your tap:
+The next command will ask for some input.  Enter the name of your target:
 ```bash
 $ cookiecutter https://github.com/singer-io/singer-target-template.git
 project_name [e.g. 'target-csv']: target-foobar
